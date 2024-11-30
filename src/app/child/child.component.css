@@ -1,0 +1,45 @@
+.child-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+    font-size: 24px; /* Heading size */
+    color: #333; /* Heading color */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+p {
+    font-size: 16px; /* Paragraph size */
+    color: #666; /* Paragraph color */
+    line-height: 1.5; /* Line height for readability */
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #004494; /* Darker shade on click */
+    transform: scale(0.95); /* Slightly shrink button */
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(237, 191, 92, 0.5); /* Custom focus outline */
+}
